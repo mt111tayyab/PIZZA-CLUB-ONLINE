@@ -1,0 +1,1 @@
+{"dependencies":{},"description":"Pizza Club Pindi Gheb — online ordering backend. Node.js stdlib only, JSON file store. Local/demo backend, not production-hardened.","main":"server.js","name":"pizza-club-online-backend","scripts":{"start":"node server.js"},"version":"2.0.0"}

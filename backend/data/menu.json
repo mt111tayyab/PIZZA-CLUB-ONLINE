@@ -1,0 +1,1598 @@
+{
+ "note": "PLACEHOLDER PRICES (PKR) — copied from the Pizza Club Flutter app seed data. The owner MUST check/change every price before selling. Pizza sizes: Small = Regular - Rs 300, Large = Regular + Rs 350.",
+ "categories": [
+  {
+   "id": "cat_pizza",
+   "name": "Pizza",
+   "sort_order": 0
+  },
+  {
+   "id": "cat_special_pizza",
+   "name": "Special Pizza",
+   "sort_order": 1
+  },
+  {
+   "id": "cat_burgers",
+   "name": "Burgers",
+   "sort_order": 2
+  },
+  {
+   "id": "cat_shawarma",
+   "name": "Shawarma",
+   "sort_order": 3
+  },
+  {
+   "id": "cat_paratha_rolls",
+   "name": "Paratha Rolls",
+   "sort_order": 4
+  },
+  {
+   "id": "cat_crispy_chicken",
+   "name": "Crispy Chicken",
+   "sort_order": 5
+  },
+  {
+   "id": "cat_pasta",
+   "name": "Pasta",
+   "sort_order": 6
+  },
+  {
+   "id": "cat_wings",
+   "name": "Wings",
+   "sort_order": 7
+  },
+  {
+   "id": "cat_drinks",
+   "name": "Drinks",
+   "sort_order": 8
+  },
+  {
+   "id": "cat_fries",
+   "name": "Fries",
+   "sort_order": 9
+  },
+  {
+   "id": "cat_sides",
+   "name": "Sides",
+   "sort_order": 10
+  },
+  {
+   "id": "cat_deals",
+   "name": "Deals",
+   "sort_order": 11
+  }
+ ],
+ "products": [
+  {
+   "id": "p_chicken_tikka_pizza",
+   "category_id": "cat_pizza",
+   "name": "Chicken Tikka Pizza",
+   "description": "Chicken tikka, mozzarella, onions, capsicum, pizza sauce.",
+   "price_paisa": 75000,
+   "price_rs": 750,
+   "image": "assets/food/pizza/pizza_chicken_tikka.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_chicken_tikka_pizza_small",
+     "name": "Small",
+     "price_paisa": 45000,
+     "price_rs": 450
+    },
+    {
+     "id": "p_chicken_tikka_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 75000,
+     "price_rs": 750
+    },
+    {
+     "id": "p_chicken_tikka_pizza_large",
+     "name": "Large",
+     "price_paisa": 110000,
+     "price_rs": 1100
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_chicken_tikka_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_chicken_tikka_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_chicken_tikka_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_chicken_fajita_pizza",
+   "category_id": "cat_pizza",
+   "name": "Chicken Fajita Pizza",
+   "description": "Fajita chicken, capsicum, onions, mozzarella.",
+   "price_paisa": 78000,
+   "price_rs": 780,
+   "image": "assets/food/pizza/pizza_fajita.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_chicken_fajita_pizza_small",
+     "name": "Small",
+     "price_paisa": 48000,
+     "price_rs": 480
+    },
+    {
+     "id": "p_chicken_fajita_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 78000,
+     "price_rs": 780
+    },
+    {
+     "id": "p_chicken_fajita_pizza_large",
+     "name": "Large",
+     "price_paisa": 113000,
+     "price_rs": 1130
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_chicken_fajita_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_chicken_fajita_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_chicken_fajita_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_super_supreme_pizza",
+   "category_id": "cat_pizza",
+   "name": "Super Supreme Pizza",
+   "description": "Chicken, beef pepperoni, vegetables, olives, extra cheese.",
+   "price_paisa": 85000,
+   "price_rs": 850,
+   "image": "assets/food/pizza/pizza_supreme.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_super_supreme_pizza_small",
+     "name": "Small",
+     "price_paisa": 55000,
+     "price_rs": 550
+    },
+    {
+     "id": "p_super_supreme_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 85000,
+     "price_rs": 850
+    },
+    {
+     "id": "p_super_supreme_pizza_large",
+     "name": "Large",
+     "price_paisa": 120000,
+     "price_rs": 1200
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_super_supreme_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_super_supreme_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_super_supreme_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_tandoori_pizza",
+   "category_id": "cat_pizza",
+   "name": "Tandoori Pizza",
+   "description": "Tandoori chicken, green chillies, onions, mozzarella.",
+   "price_paisa": 78000,
+   "price_rs": 780,
+   "image": "assets/food/pizza/pizza_tandoori.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_tandoori_pizza_small",
+     "name": "Small",
+     "price_paisa": 48000,
+     "price_rs": 480
+    },
+    {
+     "id": "p_tandoori_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 78000,
+     "price_rs": 780
+    },
+    {
+     "id": "p_tandoori_pizza_large",
+     "name": "Large",
+     "price_paisa": 113000,
+     "price_rs": 1130
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_tandoori_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_tandoori_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_tandoori_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_vegetarian_pizza",
+   "category_id": "cat_pizza",
+   "name": "Vegetarian Pizza",
+   "description": "Capsicum, onions, mushrooms, sweet corn, olives.",
+   "price_paisa": 65000,
+   "price_rs": 650,
+   "image": "assets/food/pizza/pizza_supreme.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_vegetarian_pizza_small",
+     "name": "Small",
+     "price_paisa": 35000,
+     "price_rs": 350
+    },
+    {
+     "id": "p_vegetarian_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 65000,
+     "price_rs": 650
+    },
+    {
+     "id": "p_vegetarian_pizza_large",
+     "name": "Large",
+     "price_paisa": 100000,
+     "price_rs": 1000
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_vegetarian_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_vegetarian_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_vegetarian_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_hot_spicy_pizza",
+   "category_id": "cat_pizza",
+   "name": "Hot & Spicy Pizza",
+   "description": "Spicy chicken, chillies, hot sauce, mozzarella.",
+   "price_paisa": 78000,
+   "price_rs": 780,
+   "image": "assets/food/pizza/pizza_tandoori.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_hot_spicy_pizza_small",
+     "name": "Small",
+     "price_paisa": 48000,
+     "price_rs": 480
+    },
+    {
+     "id": "p_hot_spicy_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 78000,
+     "price_rs": 780
+    },
+    {
+     "id": "p_hot_spicy_pizza_large",
+     "name": "Large",
+     "price_paisa": 113000,
+     "price_rs": 1130
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_hot_spicy_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_hot_spicy_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_hot_spicy_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_special_cheese_pizza",
+   "category_id": "cat_pizza",
+   "name": "Special Cheese Pizza",
+   "description": "Double mozzarella, cheddar, pizza sauce.",
+   "price_paisa": 80000,
+   "price_rs": 800,
+   "image": "assets/food/pizza/pizza_chicken_tikka.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_special_cheese_pizza_small",
+     "name": "Small",
+     "price_paisa": 50000,
+     "price_rs": 500
+    },
+    {
+     "id": "p_special_cheese_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 80000,
+     "price_rs": 800
+    },
+    {
+     "id": "p_special_cheese_pizza_large",
+     "name": "Large",
+     "price_paisa": 115000,
+     "price_rs": 1150
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_special_cheese_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_special_cheese_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_special_cheese_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_crown_crust_pizza",
+   "category_id": "cat_special_pizza",
+   "name": "Crown Crust Pizza",
+   "description": "Crown crust stuffed with chicken and cheese.",
+   "price_paisa": 95000,
+   "price_rs": 950,
+   "image": "assets/food/special_pizza/pizza_special.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_crown_crust_pizza_small",
+     "name": "Small",
+     "price_paisa": 65000,
+     "price_rs": 650
+    },
+    {
+     "id": "p_crown_crust_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 95000,
+     "price_rs": 950
+    },
+    {
+     "id": "p_crown_crust_pizza_large",
+     "name": "Large",
+     "price_paisa": 130000,
+     "price_rs": 1300
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_crown_crust_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_crown_crust_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_crown_crust_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_kababish_pizza",
+   "category_id": "cat_special_pizza",
+   "name": "Kababish Pizza",
+   "description": "Seekh kabab pieces, onions, cheese.",
+   "price_paisa": 90000,
+   "price_rs": 900,
+   "image": "assets/food/special_pizza/pizza_special.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_kababish_pizza_small",
+     "name": "Small",
+     "price_paisa": 60000,
+     "price_rs": 600
+    },
+    {
+     "id": "p_kababish_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 90000,
+     "price_rs": 900
+    },
+    {
+     "id": "p_kababish_pizza_large",
+     "name": "Large",
+     "price_paisa": 125000,
+     "price_rs": 1250
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_kababish_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_kababish_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_kababish_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_four_season_pizza",
+   "category_id": "cat_special_pizza",
+   "name": "Four Season Pizza",
+   "description": "Four flavours in one pizza.",
+   "price_paisa": 95000,
+   "price_rs": 950,
+   "image": "assets/food/special_pizza/pizza_special.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_four_season_pizza_small",
+     "name": "Small",
+     "price_paisa": 65000,
+     "price_rs": 650
+    },
+    {
+     "id": "p_four_season_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 95000,
+     "price_rs": 950
+    },
+    {
+     "id": "p_four_season_pizza_large",
+     "name": "Large",
+     "price_paisa": 130000,
+     "price_rs": 1300
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_four_season_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_four_season_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_four_season_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_pizza_club_special_pizza",
+   "category_id": "cat_special_pizza",
+   "name": "Pizza Club Special Pizza",
+   "description": "The house special — chicken, cheese, vegetables.",
+   "price_paisa": 95000,
+   "price_rs": 950,
+   "image": "assets/food/special_pizza/pizza_special.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_pizza_club_special_pizza_small",
+     "name": "Small",
+     "price_paisa": 65000,
+     "price_rs": 650
+    },
+    {
+     "id": "p_pizza_club_special_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 95000,
+     "price_rs": 950
+    },
+    {
+     "id": "p_pizza_club_special_pizza_large",
+     "name": "Large",
+     "price_paisa": 130000,
+     "price_rs": 1300
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_pizza_club_special_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_pizza_club_special_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_pizza_club_special_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_creamy_chicken_tikka_pizza",
+   "category_id": "cat_special_pizza",
+   "name": "Creamy Chicken Tikka Pizza",
+   "description": "Creamy sauce, chicken tikka, cheese.",
+   "price_paisa": 90000,
+   "price_rs": 900,
+   "image": "assets/food/pizza/pizza_chicken_tikka.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_creamy_chicken_tikka_pizza_small",
+     "name": "Small",
+     "price_paisa": 60000,
+     "price_rs": 600
+    },
+    {
+     "id": "p_creamy_chicken_tikka_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 90000,
+     "price_rs": 900
+    },
+    {
+     "id": "p_creamy_chicken_tikka_pizza_large",
+     "name": "Large",
+     "price_paisa": 125000,
+     "price_rs": 1250
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_creamy_chicken_tikka_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_creamy_chicken_tikka_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_creamy_chicken_tikka_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_lava_pizza",
+   "category_id": "cat_special_pizza",
+   "name": "Lava Pizza",
+   "description": "Molten cheese centre, spicy chicken.",
+   "price_paisa": 95000,
+   "price_rs": 950,
+   "image": "assets/food/special_pizza/pizza_special.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_lava_pizza_small",
+     "name": "Small",
+     "price_paisa": 65000,
+     "price_rs": 650
+    },
+    {
+     "id": "p_lava_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 95000,
+     "price_rs": 950
+    },
+    {
+     "id": "p_lava_pizza_large",
+     "name": "Large",
+     "price_paisa": 130000,
+     "price_rs": 1300
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_lava_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_lava_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_lava_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_afghani_pizza",
+   "category_id": "cat_special_pizza",
+   "name": "Afghani Pizza",
+   "description": "Afghani-style chicken, creamy sauce.",
+   "price_paisa": 90000,
+   "price_rs": 900,
+   "image": "assets/food/special_pizza/pizza_special.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_afghani_pizza_small",
+     "name": "Small",
+     "price_paisa": 60000,
+     "price_rs": 600
+    },
+    {
+     "id": "p_afghani_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 90000,
+     "price_rs": 900
+    },
+    {
+     "id": "p_afghani_pizza_large",
+     "name": "Large",
+     "price_paisa": 125000,
+     "price_rs": 1250
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_afghani_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_afghani_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_afghani_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_shawarma_pizza",
+   "category_id": "cat_special_pizza",
+   "name": "Shawarma Pizza",
+   "description": "Shawarma chicken, garlic sauce, cheese.",
+   "price_paisa": 90000,
+   "price_rs": 900,
+   "image": "assets/food/shawarma/shawarma_chicken.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_shawarma_pizza_small",
+     "name": "Small",
+     "price_paisa": 60000,
+     "price_rs": 600
+    },
+    {
+     "id": "p_shawarma_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 90000,
+     "price_rs": 900
+    },
+    {
+     "id": "p_shawarma_pizza_large",
+     "name": "Large",
+     "price_paisa": 125000,
+     "price_rs": 1250
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_shawarma_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_shawarma_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_shawarma_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_malai_boti_pizza",
+   "category_id": "cat_special_pizza",
+   "name": "Malai Boti Pizza",
+   "description": "Malai boti, creamy sauce, cheese.",
+   "price_paisa": 90000,
+   "price_rs": 900,
+   "image": "assets/food/pizza/pizza_chicken_tikka.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_malai_boti_pizza_small",
+     "name": "Small",
+     "price_paisa": 60000,
+     "price_rs": 600
+    },
+    {
+     "id": "p_malai_boti_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 90000,
+     "price_rs": 900
+    },
+    {
+     "id": "p_malai_boti_pizza_large",
+     "name": "Large",
+     "price_paisa": 125000,
+     "price_rs": 1250
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_malai_boti_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_malai_boti_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_malai_boti_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_pepperoni_pizza",
+   "category_id": "cat_special_pizza",
+   "name": "Pepperoni Pizza",
+   "description": "Beef pepperoni, mozzarella, pizza sauce.",
+   "price_paisa": 95000,
+   "price_rs": 950,
+   "image": "assets/food/pizza/pizza_supreme.jpg",
+   "has_sizes": true,
+   "sizes": [
+    {
+     "id": "p_pepperoni_pizza_small",
+     "name": "Small",
+     "price_paisa": 65000,
+     "price_rs": 650
+    },
+    {
+     "id": "p_pepperoni_pizza_regular",
+     "name": "Regular",
+     "price_paisa": 95000,
+     "price_rs": 950
+    },
+    {
+     "id": "p_pepperoni_pizza_large",
+     "name": "Large",
+     "price_paisa": 130000,
+     "price_rs": 1300
+    }
+   ],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_pepperoni_pizza_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Chicken",
+     "price_paisa": 20000,
+     "price_rs": 200,
+     "id": "p_pepperoni_pizza_addon_extra_chicken"
+    },
+    {
+     "name": "Olives",
+     "price_paisa": 10000,
+     "price_rs": 100,
+     "id": "p_pepperoni_pizza_addon_olives"
+    }
+   ]
+  },
+  {
+   "id": "p_crispy_burger",
+   "category_id": "cat_burgers",
+   "name": "Crispy Burger",
+   "description": "Crispy fried chicken fillet, mayo, lettuce.",
+   "price_paisa": 30000,
+   "price_rs": 300,
+   "image": "assets/food/burgers/burger_crispy.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 8000,
+     "price_rs": 80,
+     "id": "p_crispy_burger_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Patty",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_crispy_burger_addon_extra_patty"
+    }
+   ]
+  },
+  {
+   "id": "p_zinger_burger",
+   "category_id": "cat_burgers",
+   "name": "Zinger Burger",
+   "description": "Spicy zinger fillet, cheese, mayo.",
+   "price_paisa": 35000,
+   "price_rs": 350,
+   "image": "assets/food/burgers/burger_zinger.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 8000,
+     "price_rs": 80,
+     "id": "p_zinger_burger_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Patty",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_zinger_burger_addon_extra_patty"
+    }
+   ]
+  },
+  {
+   "id": "p_beef_burger",
+   "category_id": "cat_burgers",
+   "name": "Beef Burger",
+   "description": "Beef patty, cheese, onion, sauce.",
+   "price_paisa": 40000,
+   "price_rs": 400,
+   "image": "assets/food/burgers/burger_beef.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 8000,
+     "price_rs": 80,
+     "id": "p_beef_burger_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Patty",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_beef_burger_addon_extra_patty"
+    }
+   ]
+  },
+  {
+   "id": "p_tower_burger",
+   "category_id": "cat_burgers",
+   "name": "Tower Burger",
+   "description": "Double fillet, cheese, egg, tower stack.",
+   "price_paisa": 55000,
+   "price_rs": 550,
+   "image": "assets/food/burgers/burger_zinger.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 8000,
+     "price_rs": 80,
+     "id": "p_tower_burger_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Patty",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_tower_burger_addon_extra_patty"
+    }
+   ]
+  },
+  {
+   "id": "p_pizza_burger",
+   "category_id": "cat_burgers",
+   "name": "Pizza Burger",
+   "description": "Chicken fillet with pizza sauce and cheese.",
+   "price_paisa": 45000,
+   "price_rs": 450,
+   "image": "assets/food/burgers/burger_crispy.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 8000,
+     "price_rs": 80,
+     "id": "p_pizza_burger_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Patty",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_pizza_burger_addon_extra_patty"
+    }
+   ]
+  },
+  {
+   "id": "p_crunch_burger",
+   "category_id": "cat_burgers",
+   "name": "Crunch Burger",
+   "description": "Crunchy fillet, crunchy coating, mayo.",
+   "price_paisa": 32000,
+   "price_rs": 320,
+   "image": "assets/food/burgers/burger_crispy.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 8000,
+     "price_rs": 80,
+     "id": "p_crunch_burger_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Patty",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_crunch_burger_addon_extra_patty"
+    }
+   ]
+  },
+  {
+   "id": "p_double_zinger_burger",
+   "category_id": "cat_burgers",
+   "name": "Double Zinger Burger",
+   "description": "Two zinger fillets, double cheese.",
+   "price_paisa": 55000,
+   "price_rs": 550,
+   "image": "assets/food/burgers/burger_zinger.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 8000,
+     "price_rs": 80,
+     "id": "p_double_zinger_burger_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Patty",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_double_zinger_burger_addon_extra_patty"
+    }
+   ]
+  },
+  {
+   "id": "p_double_crunch_burger",
+   "category_id": "cat_burgers",
+   "name": "Double Crunch Burger",
+   "description": "Two crunch fillets, cheese, sauce.",
+   "price_paisa": 52000,
+   "price_rs": 520,
+   "image": "assets/food/burgers/burger_crispy.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 8000,
+     "price_rs": 80,
+     "id": "p_double_crunch_burger_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Patty",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_double_crunch_burger_addon_extra_patty"
+    }
+   ]
+  },
+  {
+   "id": "p_chicken_shawarma",
+   "category_id": "cat_shawarma",
+   "name": "Chicken Shawarma",
+   "description": "Chicken shawarma, garlic sauce, pickles.",
+   "price_paisa": 25000,
+   "price_rs": 250,
+   "image": "assets/food/shawarma/shawarma_chicken.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_vegetarian_shawarma",
+   "category_id": "cat_shawarma",
+   "name": "Vegetarian Shawarma",
+   "description": "Vegetables, garlic sauce, pickles.",
+   "price_paisa": 20000,
+   "price_rs": 200,
+   "image": "assets/food/shawarma/shawarma_chicken.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_zinger_shawarma",
+   "category_id": "cat_shawarma",
+   "name": "Zinger Shawarma",
+   "description": "Zinger strips, garlic sauce.",
+   "price_paisa": 32000,
+   "price_rs": 320,
+   "image": "assets/food/shawarma/shawarma_chicken.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_mayo_shawarma",
+   "category_id": "cat_shawarma",
+   "name": "Mayo Shawarma",
+   "description": "Chicken shawarma, extra mayo.",
+   "price_paisa": 28000,
+   "price_rs": 280,
+   "image": "assets/food/shawarma/shawarma_chicken.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_pizza_club_special_shawarma",
+   "category_id": "cat_shawarma",
+   "name": "Pizza Club Special Shawarma",
+   "description": "House special shawarma with cheese.",
+   "price_paisa": 35000,
+   "price_rs": 350,
+   "image": "assets/food/shawarma/shawarma_chicken.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_reshmi_shawarma",
+   "category_id": "cat_shawarma",
+   "name": "Reshmi Shawarma",
+   "description": "Reshmi chicken, creamy sauce.",
+   "price_paisa": 32000,
+   "price_rs": 320,
+   "image": "assets/food/shawarma/shawarma_chicken.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_turkish_shawarma",
+   "category_id": "cat_shawarma",
+   "name": "Turkish Shawarma",
+   "description": "Turkish-style shawarma, sauce.",
+   "price_paisa": 35000,
+   "price_rs": 350,
+   "image": "assets/food/shawarma/shawarma_chicken.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_chicken_paratha_roll",
+   "category_id": "cat_paratha_rolls",
+   "name": "Chicken Paratha Roll",
+   "description": "Chicken, onion, chutney in a paratha.",
+   "price_paisa": 22000,
+   "price_rs": 220,
+   "image": "assets/food/paratha/paratha_chicken.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_chicken_chutney_paratha_roll",
+   "category_id": "cat_paratha_rolls",
+   "name": "Chicken Chutney Paratha Roll",
+   "description": "Chicken with green chutney.",
+   "price_paisa": 24000,
+   "price_rs": 240,
+   "image": "assets/food/paratha/paratha_chicken.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_zinger_paratha_roll",
+   "category_id": "cat_paratha_rolls",
+   "name": "Zinger Paratha Roll",
+   "description": "Zinger strips in a paratha roll.",
+   "price_paisa": 30000,
+   "price_rs": 300,
+   "image": "assets/food/paratha/paratha_chicken.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_mayo_paratha_roll",
+   "category_id": "cat_paratha_rolls",
+   "name": "Mayo Paratha Roll",
+   "description": "Chicken roll with extra mayo.",
+   "price_paisa": 25000,
+   "price_rs": 250,
+   "image": "assets/food/paratha/paratha_chicken.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_ketchup_paratha_roll",
+   "category_id": "cat_paratha_rolls",
+   "name": "Ketchup Paratha Roll",
+   "description": "Chicken roll with ketchup.",
+   "price_paisa": 22000,
+   "price_rs": 220,
+   "image": "assets/food/paratha/paratha_chicken.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_reshmi_paratha_roll",
+   "category_id": "cat_paratha_rolls",
+   "name": "Reshmi Paratha Roll",
+   "description": "Reshmi chicken paratha roll.",
+   "price_paisa": 28000,
+   "price_rs": 280,
+   "image": "assets/food/paratha/paratha_chicken.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_special_paratha_roll",
+   "category_id": "cat_paratha_rolls",
+   "name": "Special Paratha Roll",
+   "description": "House special paratha roll.",
+   "price_paisa": 30000,
+   "price_rs": 300,
+   "image": "assets/food/paratha/paratha_chicken.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_chicken_nuggets_6_pcs_",
+   "category_id": "cat_crispy_chicken",
+   "name": "Chicken Nuggets (6 pcs)",
+   "description": "Six crispy chicken nuggets with dip.",
+   "price_paisa": 30000,
+   "price_rs": 300,
+   "image": "assets/food/crispy_chicken/nuggets.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_chicken_nuggets_9_pcs_",
+   "category_id": "cat_crispy_chicken",
+   "name": "Chicken Nuggets (9 pcs)",
+   "description": "Nine crispy chicken nuggets with dip.",
+   "price_paisa": 42000,
+   "price_rs": 420,
+   "image": "assets/food/crispy_chicken/nuggets.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_crispy_chicken_strips",
+   "category_id": "cat_crispy_chicken",
+   "name": "Crispy Chicken Strips",
+   "description": "Crispy chicken strips with dip.",
+   "price_paisa": 38000,
+   "price_rs": 380,
+   "image": "assets/food/crispy_chicken/nuggets.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_crispy_chicken_wings",
+   "category_id": "cat_crispy_chicken",
+   "name": "Crispy Chicken Wings",
+   "description": "Crispy fried chicken wings.",
+   "price_paisa": 40000,
+   "price_rs": 400,
+   "image": "assets/food/wings/wings_hot.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_crunch_pasta",
+   "category_id": "cat_pasta",
+   "name": "Crunch Pasta",
+   "description": "Pasta with crunchy chicken topping.",
+   "price_paisa": 55000,
+   "price_rs": 550,
+   "image": "assets/food/pasta/pasta_alfredo.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_pizza_pasta",
+   "category_id": "cat_pasta",
+   "name": "Pizza Pasta",
+   "description": "Pasta with pizza sauce and cheese.",
+   "price_paisa": 60000,
+   "price_rs": 600,
+   "image": "assets/food/pasta/pasta_tandoori.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_alfredo_pasta",
+   "category_id": "cat_pasta",
+   "name": "Alfredo Pasta",
+   "description": "Creamy alfredo sauce pasta.",
+   "price_paisa": 65000,
+   "price_rs": 650,
+   "image": "assets/food/pasta/pasta_alfredo.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_tandoori_special_pasta",
+   "category_id": "cat_pasta",
+   "name": "Tandoori Special Pasta",
+   "description": "Tandoori chicken pasta, spicy sauce.",
+   "price_paisa": 60000,
+   "price_rs": 600,
+   "image": "assets/food/pasta/pasta_tandoori.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_hot_wings_6_pcs_",
+   "category_id": "cat_wings",
+   "name": "Hot Wings (6 pcs)",
+   "description": "Six hot wings, spicy sauce.",
+   "price_paisa": 40000,
+   "price_rs": 400,
+   "image": "assets/food/wings/wings_hot.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_crispy_wings_6_pcs_",
+   "category_id": "cat_wings",
+   "name": "Crispy Wings (6 pcs)",
+   "description": "Six crispy wings.",
+   "price_paisa": 40000,
+   "price_rs": 400,
+   "image": "assets/food/wings/wings_hot.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_hot_wings_10_pcs_",
+   "category_id": "cat_wings",
+   "name": "Hot Wings (10 pcs)",
+   "description": "Ten hot wings, spicy sauce.",
+   "price_paisa": 60000,
+   "price_rs": 600,
+   "image": "assets/food/wings/wings_hot.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_soft_drink_345ml_",
+   "category_id": "cat_drinks",
+   "name": "Soft Drink (345ml)",
+   "description": "Chilled soft drink.",
+   "price_paisa": 10000,
+   "price_rs": 100,
+   "image": "assets/food/drinks/drinks_cold.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_soft_drink_1_5l_",
+   "category_id": "cat_drinks",
+   "name": "Soft Drink (1.5L)",
+   "description": "1.5 litre soft drink bottle.",
+   "price_paisa": 20000,
+   "price_rs": 200,
+   "image": "assets/food/drinks/drinks_cold.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_mineral_water",
+   "category_id": "cat_drinks",
+   "name": "Mineral Water",
+   "description": "Mineral water bottle.",
+   "price_paisa": 8000,
+   "price_rs": 80,
+   "image": "assets/food/drinks/drinks_cold.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_cold_coffee",
+   "category_id": "cat_drinks",
+   "name": "Cold Coffee",
+   "description": "Chilled cold coffee.",
+   "price_paisa": 25000,
+   "price_rs": 250,
+   "image": "assets/food/drinks/drinks_cold.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_plain_fries",
+   "category_id": "cat_fries",
+   "name": "Plain Fries",
+   "description": "Golden french fries, salt.",
+   "price_paisa": 15000,
+   "price_rs": 150,
+   "image": "assets/food/fries/fries.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_masala_fries",
+   "category_id": "cat_fries",
+   "name": "Masala Fries",
+   "description": "Fries with masala seasoning.",
+   "price_paisa": 20000,
+   "price_rs": 200,
+   "image": "assets/food/fries/fries.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_loaded_fries",
+   "category_id": "cat_fries",
+   "name": "Loaded Fries",
+   "description": "Fries loaded with cheese and chicken.",
+   "price_paisa": 30000,
+   "price_rs": 300,
+   "image": "assets/food/fries/fries.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_garlic_bread",
+   "category_id": "cat_sides",
+   "name": "Garlic Bread",
+   "description": "Toasted garlic bread.",
+   "price_paisa": 20000,
+   "price_rs": 200,
+   "image": "assets/food/sides/sides.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_coleslaw",
+   "category_id": "cat_sides",
+   "name": "Coleslaw",
+   "description": "Fresh coleslaw.",
+   "price_paisa": 15000,
+   "price_rs": 150,
+   "image": "assets/food/sides/sides.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_salad",
+   "category_id": "cat_sides",
+   "name": "Salad",
+   "description": "Fresh garden salad.",
+   "price_paisa": 15000,
+   "price_rs": 150,
+   "image": "assets/food/sides/sides.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_family_deal_1_large_pizza_drink",
+   "category_id": "cat_deals",
+   "name": "Family Deal — 1 Large Pizza + Drink",
+   "description": "One large pizza of your choice + 1.5L drink.",
+   "price_paisa": 129900,
+   "price_rs": 1299,
+   "image": "assets/food/deals/deal_family.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_burger_combo_zinger_fries_drink",
+   "category_id": "cat_deals",
+   "name": "Burger Combo — Zinger + Fries + Drink",
+   "description": "Zinger burger, fries and a soft drink.",
+   "price_paisa": 49900,
+   "price_rs": 499,
+   "image": "assets/food/deals/deal_burger.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": [
+    {
+     "name": "Extra Cheese",
+     "price_paisa": 8000,
+     "price_rs": 80,
+     "id": "p_burger_combo_zinger_fries_drink_addon_extra_cheese"
+    },
+    {
+     "name": "Extra Patty",
+     "price_paisa": 15000,
+     "price_rs": 150,
+     "id": "p_burger_combo_zinger_fries_drink_addon_extra_patty"
+    }
+   ]
+  },
+  {
+   "id": "p_pizza_wings_deal",
+   "category_id": "cat_deals",
+   "name": "Pizza + Wings Deal",
+   "description": "Regular pizza + 6 hot wings.",
+   "price_paisa": 149900,
+   "price_rs": 1499,
+   "image": "assets/food/deals/deal_family.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  },
+  {
+   "id": "p_shawarma_deal_2_shawarma_drink",
+   "category_id": "cat_deals",
+   "name": "Shawarma Deal — 2 Shawarma + Drink",
+   "description": "Two chicken shawarmas + soft drink.",
+   "price_paisa": 54900,
+   "price_rs": 549,
+   "image": "assets/food/deals/deal_burger.jpg",
+   "has_sizes": false,
+   "sizes": [],
+   "addons": []
+  }
+ ]
+}
